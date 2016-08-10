@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <sly data-sly-include="partials/head.html" data-sly-unwrap/>
+    <sly data-sly-include="partials/headlibs.html" data-sly-unwrap/>
+</head>
+<body>
+    <sly data-sly-include="partials/main.html" data-sly-unwrap/>
+    <div data-sly-resource="${'banner' @ resourceType='kxiApps/components/content/banner'}"></div>
+    <sly data-sly-resource="${'pageparsys' @ resourceType='wcm/foundation/components/parsys'}"/>
+
+    <sly data-sly-include="partials/footlibs.html" data-sly-unwrap/>
+</body>
+</html>
